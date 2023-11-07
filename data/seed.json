@@ -1,0 +1,71 @@
+{
+  "store": {
+    "currencies": ["eur", "usd"]
+  },
+  "users": [],
+  "regions": [],
+  "shipping_options": [],
+  "products": [
+    {
+      "title": "Antique Kitchen or Bathroom Vintage Lighting Fixture 2 Bulb",
+      "collection_id": "wall",
+      "categories": [
+        {
+          "id": "wall"
+        }
+      ],
+      "subtitle": "antique kitchen bathroom lighting fixture with vintage light shade",
+      "description": "ON HOLD Classic vintage design and style from the 30s when the white porcelain sanitized was still popular for bathroom and kitchen lighting fixtures. The antique shade will allow for money saving CFL bulbs. The antique pull chain switch on this lighting fixture pulls and clicks smoothly, as it should. And as always, the outlet has been disabled for safety concerns.",
+      "handle": "antique-kitchen-or-bathroom-vintage-lighting-fixture-2-bulb",
+      "is_giftcard": false,
+      "weight": 9000,
+      "height": 5,
+      "width": 11,
+      "length": 5,
+      "hs_code": "WAL20100908001",
+      "discountable": false,
+      "images": [
+        "https://my-medusa.s3.ap-south-1.amazonaws.com/prime_on_c8352bad-9917-c6b4-c353-4c87a4b5550a.jpg",
+        "https://my-medusa.s3.ap-south-1.amazonaws.com/prime_off_c8352bad-9917-c6b4-c353-4c87a4b5550a.jpg"
+      ],
+      "options": [
+        {
+          "title": "Style",
+          "values": []
+        },
+        {
+          "title": "Year",
+          "values": []
+        },
+        {
+          "title": "Free Shipping",
+          "values": []
+        }
+      ],
+      "variants": [
+        {
+          "title": "deco ball | vintage kitchen light",
+          "prices": [
+            {
+              "currency_code": "usd",
+              "amount": 120000
+            }
+          ],
+          "options": [
+            {
+              "value": "Bungalow"
+            },
+            {
+              "value": "1930-1940"
+            },
+            {
+              "value": false
+            }
+          ],
+          "inventory_quantity": 2,
+          "manage_inventory": true
+        }
+      ]
+    }
+  ]
+}
