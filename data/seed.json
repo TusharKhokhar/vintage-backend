@@ -2,18 +2,18 @@
   "store": {
     "currencies": ["eur", "usd"]
   },
-  "users": [],
+  "users": [
+    {
+      "email": "admin@medusa-test.com",
+      "password": "supersecret"
+    }
+  ],
   "regions": [],
   "shipping_options": [],
   "products": [
     {
       "title": "Antique Kitchen or Bathroom Vintage Lighting Fixture 2 Bulb",
-      "collection_id": "wall",
-      "categories": [
-        {
-          "id": "wall"
-        }
-      ],
+      "categories": [],
       "subtitle": "antique kitchen bathroom lighting fixture with vintage light shade",
       "description": "ON HOLD Classic vintage design and style from the 30s when the white porcelain sanitized was still popular for bathroom and kitchen lighting fixtures. The antique shade will allow for money saving CFL bulbs. The antique pull chain switch on this lighting fixture pulls and clicks smoothly, as it should. And as always, the outlet has been disabled for safety concerns.",
       "handle": "antique-kitchen-or-bathroom-vintage-lighting-fixture-2-bulb",
@@ -22,8 +22,13 @@
       "height": 5,
       "width": 11,
       "length": 5,
+      "metadata": {
+        "meta_description": "mcm",
+        "keywords": "mid century"
+      },
       "hs_code": "WAL20100908001",
       "discountable": false,
+      "thumbnail": "https://my-medusa.s3.ap-south-1.amazonaws.com/prime_on_c8352bad-9917-c6b4-c353-4c87a4b5550a.jpg",
       "images": [
         "https://my-medusa.s3.ap-south-1.amazonaws.com/prime_on_c8352bad-9917-c6b4-c353-4c87a4b5550a.jpg",
         "https://my-medusa.s3.ap-south-1.amazonaws.com/prime_off_c8352bad-9917-c6b4-c353-4c87a4b5550a.jpg"
@@ -39,6 +44,18 @@
         },
         {
           "title": "Free Shipping",
+          "values": []
+        },
+        {
+          "title": "Featured",
+          "values": []
+        },
+        {
+          "title": "Sold",
+          "values": []
+        },
+        {
+          "title": "Active",
           "values": []
         }
       ],
@@ -60,10 +77,73 @@
             },
             {
               "value": false
+            },
+            {
+              "value": false
+            },
+            {
+              "value": false
+            },
+            {
+              "value": true
             }
           ],
           "inventory_quantity": 2,
           "manage_inventory": true
+        }
+      ],
+      "collections": [
+        {
+          "id": "vintage_wall",
+          "title": "Wall",
+          "handle": "wall"
+        },
+        {
+          "id": "vintage_ceiling",
+          "title": "Ceiling",
+          "handle": "ceiling"
+        },
+        {
+          "id": "vintage_porch",
+          "title": "Porch",
+          "rank": 0,
+          "handle": "porch"
+        },
+        {
+          "id": "vintage_table",
+          "title": "Table",
+          "handle": "table"
+        },
+        {
+          "id": "vintage_shades",
+          "title": "Shades",
+          "handle": "shades"
+        },
+        {
+          "id": "vintage_relatded-items",
+          "title": "Related Items",
+          "rank": 0,
+          "handle": "relatded-items"
+        },
+        {
+          "id": "vintage_as-found",
+          "title": "As Found",
+          "handle": "as-found"
+        },
+        {
+          "id": "vintage_slip-shades",
+          "title": "Slip Shades",
+          "handle": "slip-shades"
+        },
+        {
+          "id": "vintage_sets",
+          "title": "Sets",
+          "handle": "sets"
+        },
+        {
+          "id": "vintage_news",
+          "title": "News",
+          "handle": "News"
         }
       ]
     }
